@@ -1,6 +1,6 @@
 # DawaScan Desktop — Installation
 
-**Download:** [DawaScan-Setup.zip](https://github.com/pssolutions/DawaScanDesktopRelease/raw/main/DawaScan-Setup.zip)
+**Download:** [DawaScanSetup.exe](https://github.com/pssolutions/DawaScanDesktopRelease/releases/latest/download/DawaScanSetup.exe)
 
 ## Before you start
 
@@ -8,31 +8,35 @@
 - You need a Windows administrator password, and the activation code DawaScan gave you.
 - If the old **Pharmacy Automation** app is on this PC:
   - Make sure no invoice is claimed or running in it.
+  - Make sure **Sync Pending Results** shows nothing pending.
   - Open its Settings and write down the process name and window title, if any are filled in.
+  - Get a **new** activation code from DawaScan support.
 
 ## Install
 
-1. Download **DawaScan-Setup.zip** from the link above.
-2. Right-click the zip and choose **Extract All**, then **Extract**.
-3. In the extracted folder, double-click **Install-DawaScan.bat**.
-4. If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway**.
-5. Click **Yes** when Windows asks for administrator permission.
-6. If the old Pharmacy Automation app is found, type **y** and press Enter. It is removed automatically.
-7. Wait while the latest DawaScan is downloaded. The DawaScan setup window opens.
-8. Click **Next** and **Install**, then **Finish**.
-9. Press any key to close the black window.
+1. Download **DawaScanSetup.exe** from the link above.
+2. Double-click the downloaded file.
+3. If Windows shows **"Windows protected your PC"**, click **More info**, then **Run anyway**.
+4. Click **Yes** when Windows asks for administrator permission.
+5. Follow the setup window. If it shows **Remove the old app**, complete the checks listed there before you click **Next**. Setup removes the old app for you.
+6. Click **Install**, then **Finish**.
 
 ## After installing
 
 - Open **DawaScan** from the Start menu.
-- Enter your activation code.
-- If you wrote down settings from the old app, enter them in DawaScan **Settings**.
+- Enter your activation code and check that your pharmacy name appears.
+- If you moved from the old app:
+  - Enter the settings you wrote down in DawaScan **Settings**.
+  - Ask DawaScan support to deactivate the old machine.
+  - If your antivirus had an exception for the old app, add one for DawaScan.
+
+## Updates
+
+DawaScan checks for updates by itself. You can also choose **Check for Updates** in the app menu. Updates keep your activation and settings.
+
+Uninstalling DawaScan removes its settings and activation. You need a new activation code to install it again.
 
 ## If something goes wrong
 
-- Read the red message in the black window and send a photo of it to DawaScan support.
-- It is safe to run **Install-DawaScan.bat** again.
-
----
-
-*For DawaScan staff:* the zip always installs the latest release. Rebuild it only when `Install-DawaScan.bat` or the certificate changes. App updates after the first install happen inside DawaScan.
+- Send a photo of the error message to DawaScan support.
+- If setup says the old app could not be removed, also send the file named in the message.
